@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4875C"
+    tools:context=".MainActivity3">
+
+    <!-- Hiển thị VideoView mặc định -->
+
+    <TextureView
+        android:id="@+id/textureView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="-240dp" /> <!-- Ẩn TextureView mặc định -->
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="437dp"
+        android:layout_height="434dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.159" />
+
+    <ImageView
+        android:id="@+id/imgbdd"
+        android:layout_width="528dp"
+        android:layout_height="555dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="224dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/to_be_continued_meme" />
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="111dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="576dp"
+        android:background="@drawable/button_custom"
+        android:text="Enter"
+        android:textColor="#000000"
+        app:backgroundTint="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

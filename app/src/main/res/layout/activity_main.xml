@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E19797"
+        tools:context=".MainActivity">
+
+
+        <ImageView
+            android:id="@+id/cl2"
+            android:layout_width="298dp"
+            android:layout_height="247dp"
+            android:layout_marginEnd="148dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/tbd"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/_740866" />
+
+        <ImageView
+            android:id="@+id/sun1"
+            android:layout_width="275dp"
+            android:layout_height="195dp"
+            android:layout_marginStart="172dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sun_png_free_download_3" />
+
+        <TextView
+            android:id="@+id/tbd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="112dp"
+            android:fontFamily="@font/alata"
+            android:text="HAPPY BIRTHDAY to ME"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/bt"
+            android:layout_width="85dp"
+            android:layout_height="95dp"
+            android:layout_marginTop="316dp"
+            android:scaleType="centerInside"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.517"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/_096935" />
+
+        <TextView
+            android:id="@+id/tbd1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/alata"
+            android:text="PRESS IT=)))"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.538"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bt" />
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="112dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="324dp"
+            android:layout_marginEnd="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/binary"
+            app:layout_constraintTop_toBottomOf="@+id/cl2"
+            app:layout_constraintVertical_bias="0.555"
+            app:srcCompat="@drawable/code_flat_color_outline_icon_free_png" />
+
+        <TextView
+            android:id="@+id/binary"
+            android:layout_width="287dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="144dp"
+            android:layout_marginEnd="4dp"
+            android:text="01011000 01101001 01101110 00100000 01000011 01101000 01100001 01101111 00100000"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tbd1"
+            app:layout_constraintVertical_bias="0.456" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
